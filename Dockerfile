@@ -1,4 +1,4 @@
-FROM jdk1.8
+FROM openjdk=17-jdk-slim
 #FROM adoptopenjdk/openjdk11:alpine-jre
 #RUN addgroup -S spring && adduser -S spring -G spring
 #USER spring:spring
